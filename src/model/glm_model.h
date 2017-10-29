@@ -22,7 +22,7 @@ public:
       family_obj_ = new poisson_family();
     } else if (family_ == "binomial") {
       family_obj_ = new binomial_family();
-    } else if (family_ == "gamma") {
+    } else if (family_ == "Gamma") {
       family_obj_ = new gamma_family();
     } else {
       Rcpp::Rcout << "warning: model not implemented yet" << std::endl;
